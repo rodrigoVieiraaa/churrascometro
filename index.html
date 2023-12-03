@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Churracometro</title>
+
+    <link rel="stylesheet" href="./styles/style.css" />
+  </head>
+  <body>
+    <main>
+      <h1>Churrascômetro</h1>
+
+      <div id="input">
+        <input class="entrada" type="number" placeholder="Adultos" />
+        <input class="entrada" type="number" placeholder="Crianças" />
+        <input class="entrada" type="number" placeholder="Duração (h)" />
+
+        <input
+          class="calcular"
+          type="submit"
+          value="Calcular"
+          onclick="calcular()"
+        />
+      </div>
+
+      <div id="resultados"></div>
+
+      <script src="./scripts/script.js"></script>
+    </main>
+  </body>
+</html>
